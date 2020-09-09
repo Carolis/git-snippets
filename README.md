@@ -1,3 +1,5 @@
+To access the `hashes` mentioned below you can run `git log` on whatever branch and then copy it
+
 # Reverting Commits
 
 Better for using on the master branch, maintains commit history
