@@ -70,3 +70,11 @@ Legend
 `e` Manually edit the current hunk;
 
 `?` Help
+
+
+
+## Credits:
+
+[Git na Vida Real](https://www.udemy.com/course/git-e-github-na-vida-real/)
+
+[Interactive Staging - Legend Section](https://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git)
