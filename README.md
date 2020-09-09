@@ -1,4 +1,6 @@
-To access the `hashes` mentioned below you can run `git log` on whatever branch and then copy it
+To access the `hashes` mentioned below you can run `git log` on whatever branch and then copy it.
+
+`git-reflog` may be useful for seeing all steps you've made previously.
 
 # Reverting Commits
 
@@ -73,7 +75,22 @@ Legend
 
 `?` Help
 
+# Deleting branches
 
+Locally deleting - You may need to change branches before deleting the one that you want
+
+```
+git branch -d branchName
+```
+
+Remote 
+
+```
+git push --delete remoteName branchName
+
+Example: git push --delete origin myBranch
+
+```
 
 ## Credits:
 
