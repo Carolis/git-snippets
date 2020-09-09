@@ -89,7 +89,32 @@ Remote
 git push --delete remoteName branchName
 
 Example: git push --delete origin myBranch
+```
 
+# Searching for commits without the hash
+
+For searching in the log section (commit message)
+
+```
+git log --all --grep='commit message that I want to find'
+```
+
+For searching the content inside a commit
+
+```
+$ git grep 'commit content inside the files' $(git rev-list -- all)
+```
+
+[rev-list documentation](https://git-scm.com/docs/git-rev-list)
+
+For searching commits in the log with regex match on the content
+
+```
+git log -G 'content that I want to find'
+
+or 
+
+git log -G 'content that I want to find' --full-history --all
 ```
 
 ## Credits:
